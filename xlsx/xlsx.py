@@ -115,3 +115,6 @@ if __name__ == "__main__":
 
 	plan_wb = init_from_smp('plan.smp')
 	plan_wb.save()
+
+	# Схлопнуть строки
+	# ws.row_dimensions.group(1,10, hidden=True)
